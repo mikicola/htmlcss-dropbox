@@ -11,7 +11,7 @@ html{
 .contenitor-header{
     max-width: 2048px;
     margin: auto;
-    background-color: aqua;
+    background-color: #b4d0e7;
 }
 
 .contenitor-900{
@@ -28,7 +28,8 @@ nav{
 .menu {
     width: 100%;
     padding-top: 1rem;
-    
+    height: 4.5rem;
+    background-color: white;
 }
 
 .menu .logo{
@@ -46,7 +47,11 @@ nav{
     display: inline-block;
 }
 
-
+ul li:nth-last-child(-n+3){
+background-color: coral;
+float: right;
+/* margin-left: 5rem; */
+}
 
 .menu a {
     text-decoration: none;
@@ -56,5 +61,20 @@ nav{
 
 .menu .btn{
     float: right;
-    
+    background-color: #0061ff;
+    color: white;
+    margin-right: 1rem;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.contenitor-header .content{
+    width: 80%;
+    margin: auto;
+    min-height: 500px;
+
+    padding-top: 5rem;
+}
+
+.contenitor-header .content h1{
+    font-size: 5em;
 }
