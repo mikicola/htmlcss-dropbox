@@ -135,10 +135,13 @@ header .content .bottom-header .fas, .fa-arrow-down{
 .contenitor-900 ul{
     list-style: none;
     margin-top: 3rem;
+    line-height: 2rem;
 }
 
 .contenitor-900 li{
     display: inline-block;
+    margin-right: 1rem;
+    vertical-align: middle;
 }
 
 .contenitor-900 .dot{
@@ -148,6 +151,8 @@ header .content .bottom-header .fas, .fa-arrow-down{
     border-radius: 50%;
     display: inline-block; 
     border-style: solid;
+    vertical-align: middle;
+    line-height: 2rem;
     
     border-color: #0061ff;
     border-width: 5px;
@@ -155,6 +160,38 @@ header .content .bottom-header .fas, .fa-arrow-down{
 
 #grey{
     border-color: lightgrey;
-    border-width: 2px;
+    border-width: 2px; 
+}
+
+.column-contenitor{
+    margin-top: 3rem;
+    width: 100%;
+
+    /* background-color: lightsalmon; */
+}
+
+.column-contenitor .column{
+    width: calc((100% - 2rem) / 3);
+    float: left;
+    padding: 1rem;  
+    border: 2px solid lightgrey;
+    /* background-color: lightgreen; */
+    height: 300px;
+}
+
+/* .column:nth-child(3n+2) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+} */
+
+.center{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.column span{
+    text-align: center;
     
+   
+
 }
