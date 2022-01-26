@@ -8,8 +8,8 @@
     <title>Dropbox</title>
 
     <link rel="stylesheet" href="css/style.css">
-   
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                 <h1>Tutto ciò che ti seve per il lavoro, in un unico posto</h1>
 
                 <!-- <div class="left"> -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quae quos est magni suscipit
+                <p class="line-height">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quae quos est magni suscipit
                     tempora
                     impedit, reprehenderit ab sequi ea delectus eum inventore quas? Expedita, sunt! Id architecto
                     tempore animi? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -51,7 +51,7 @@
 
                     <span>Annulla in qualsiasi momento</span>
 
-                    <i class="fas fa-arrow-down"></i>
+                    <i class="fas fa-arrow-down"><a href="#plans"></a></i>
                 </div>
                 <!-- </div> -->
             </div>
@@ -60,7 +60,7 @@
 
     <main>
         <!-- andranno tutte le sezioni che comprendono la pagina -->
-        <section class="contenitor-900 pt-7">
+        <section class="contenitor-900 pt-7" id="plans">
             <h2>Trova il piano Dropbox Business che fa per te</h2>
 
             <ul>
@@ -69,17 +69,19 @@
             </ul>
 
             <div class="column-contenitor clearfix">
+                <!-- Qui inizia la prima colonna -->
                 <div class="column left">
-                    <span class="title">Singolo</span>
+                    <span class="title"><i class="far fa-user"></i> Singolo</span>
                     <hr>
                     <h3 class="pt-15">Professional</h3>
                     <span class="price pt-15">19,99€</span>
                     <span class="mounth">/mese</span>
 
                     <ul class="info">
-                        <li>1 utente</li>
-                        <li>3 TB di spazio di archiviazione sicuro</li>
-                        <li>Funzioni di produttività premium e condivizione file semplice e sicura</li>
+                        <li><i class="far fa-user"></i> 1 utente</li>
+                        <li><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                        <li><i class="fas fa-pen"></i> Funzioni di produttività premium e condivizione file semplice e
+                            sicura</li>
                     </ul>
 
                     <div class="btn-contenitor pt-15">
@@ -101,13 +103,96 @@
 
 
 
-
+                <!-- qui inizia la seconda colonna -->
                 <div class="column center">
-                    <span class="title">Team</span>
-                </div>
-                <div class="column right">
-                    <span class="title">Team</span>
+                    <span class="title"><i class="far fa-building"></i> Team</span>
+                    <hr>
+                    <h3 class="pt-15">Professional</h3>
+                    <span class="price pt-15">19,99€</span>
+                    <span class="mounth">/mese</span>
 
+                    <ul class="info">
+                        <li><i class="fas fa-user-plus"></i> 1 utente</li>
+                        <li><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                        <li><i class="fas fa-pen"></i> Funzioni di produttività premium e condivizione file semplice e
+                            sicura</li>
+                    </ul>
+
+                    <div class="btn-contenitor pt-15">
+                        <a class="btn" href="#!">Prova gratis per 30 giorni</a>
+                    </div>
+
+                    <span class="buy">oppure <a id="blue" href="#!">acquista ora</a></span>
+                    <hr class="short-hr">
+
+                    <h4 class="pt-25">Punti salienti del piano</h4>
+                    <ul class="plan">
+                        <li><i class="fas fa-check blue-color"></i>Invia file fino a 500GB con Dropbox transfert</li>
+                        <li><i class="fas fa-check blue-color"></i>Cartelle offline su dispositivi mobili</li>
+                        <li><i class="fas fa-check blue-color"></i>Pulizia remota dell'account</li>
+                        <li><i class="fas fa-check blue-color"></i>Filigrana documento</li>
+                        <li><i class="fas fa-check blue-color"></i>Assistenza prioritaria</li>
+                    </ul>
+                </div>
+
+
+
+                <!-- qui inizia la terza colonna -->
+                <div class="column right">
+                    <span class="title"><i class="far fa-building"></i> Team</span>
+                    <hr>
+                    <h3 class="pt-15">Professional</h3>
+                    <span class="price pt-15">19,99€</span>
+                    <span class="mounth">/mese</span>
+
+                    <ul class="info">
+                        <li><i class="fas fa-user-plus"></i> 1 utente</li>
+                        <li><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                        <li><i class="fas fa-pen"></i> Funzioni di produttività premium e condivizione file semplice e
+                            sicura</li>
+                    </ul>
+
+                    <div class="btn-contenitor pt-15">
+                        <a class="btn" href="#!">Prova gratis per 30 giorni</a>
+                    </div>
+
+                    <span class="buy">oppure <a id="blue" href="#!">acquista ora</a></span>
+                    <hr class="short-hr">
+
+                    <h4 class="pt-25">Punti salienti del piano</h4>
+                    <ul class="plan">
+                        <li><i class="fas fa-check blue-color"></i>Invia file fino a 500GB con Dropbox transfert</li>
+                        <li><i class="fas fa-check blue-color"></i>Cartelle offline su dispositivi mobili</li>
+                        <li><i class="fas fa-check blue-color"></i>Pulizia remota dell'account</li>
+                        <li><i class="fas fa-check blue-color"></i>Filigrana documento</li>
+                        <li><i class="fas fa-check blue-color"></i>Assistenza prioritaria</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="under-columns clearfix">
+                <span class="title"><i class="far fa-building"></i> Team</span>
+                <hr>
+                <h3 class="pt-15">Enterprice</h3>
+                <span class="contact bold">contatta l'ufficio vendite per i prezzi</span>
+                <span class="contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci numquam quo
+                    nihil qui vitae</span>
+
+                <div class="btn-contenitor pt-15">
+                    <a class="btn" href="#!">Contatta l'ufficio vendite</a>
+                </div>
+            </div>
+
+            <div class="section-bottom">
+                <img src="img/partner.png" alt="partner">
+
+                <div class="text pt-25">
+                    <h5>
+                        Entra in contatto con un partner Dropbox
+                    </h5>
+
+                    <p class="line-height pt-15">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores modi velit quisquam corrupti tenetur mollitia, neque possimus id iure voluptatibus voluptatum accusantium rem eligendi dicta quis accusamus debitis dolores qui?</p>
                 </div>
             </div>
 

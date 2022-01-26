@@ -21,6 +21,10 @@ html{
     margin:auto;
 }
 
+.line-height{
+    line-height: 1.4rem;
+}
+
 .pt-7{
     padding-top: 7rem;
 }
@@ -185,7 +189,7 @@ header .content .bottom-header .fas, .fa-arrow-down{
     /* height: 300px; */
 }
 
-.column-contenitor hr{
+.contenitor-900 hr {
     background-color: lightgray;
     height: 2px;
     width: 100%;
@@ -207,6 +211,10 @@ background-color: lightgrey;
     margin-left: 1rem;
 }
 
+.pt-1{
+    padding-top: 1rem;
+}
+
 .pt-15{
     padding-top: 1.5rem ;
 }
@@ -215,17 +223,21 @@ background-color: lightgrey;
     padding-top: 2.5rem ;
 }
 
-.column .title{
+.bold{
+    font-weight: bold;
+}
+
+.contenitor-900 .title{
     width: 100%;
     text-align: center;
     display: inline-block;
 }
 
-.column h3{
+.contenitor-900 h3{
     font-size: 1.7em;
 }
 
-.price, .mounth, .buy{
+.price, .mounth, .buy, .contact{
     display: block; 
 }
 
@@ -271,3 +283,34 @@ background-color: lightgrey;
     padding-right: .3rem;
 }
 
+.under-columns{
+    margin-top: 4rem;
+    padding: 1rem; 
+    border: 2px solid lightgrey;
+    position: relative;
+}
+
+.under-columns .contact{
+    margin-top: 2rem;
+}
+
+.under-columns .btn-contenitor{
+    position: relative;
+    bottom: 11rem;
+    left: 18rem;
+}
+
+.section-bottom img{
+    width: 50%;
+    float: left;
+}
+
+.section-bottom .text{
+    width: 50%;
+    float:left;
+    padding-left:2.5rem
+}
+
+.section-bottom h5{
+    font-size: 1.4rem;
+}
