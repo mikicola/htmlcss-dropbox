@@ -176,22 +176,65 @@ header .content .bottom-header .fas, .fa-arrow-down{
     padding: 1rem;  
     border: 2px solid lightgrey;
     /* background-color: lightgreen; */
-    height: 300px;
+    /* height: 300px; */
 }
 
-/* .column:nth-child(3n+2) {
-    margin-right: 1rem;
-    margin-left: 1rem;
-} */
+.column-contenitor hr{
+    background-color: lightgray;
+    height: 2px;
+    width: 100%;
+    
+    margin-top: 1rem;
+    border-style: none;
+}
+
+
+
+span:after{
+    width: 100%;
+height: 1px;
+background-color: lightgrey;
+}
 
 .center{
     margin-right: 1rem;
     margin-left: 1rem;
 }
 
-.column span{
+.pt-15{
+    padding-top: 1.5rem ;
+}
+
+.column .title{
+    width: 100%;
     text-align: center;
+    display: inline-block;
+}
+
+.column h3{
+    font-size: 1.7em;
     
-   
+}
+
+.column .price, .mounth{
+    display: block;
+    
+}
+
+.column .mounth{
+    color: #717f8c;
+    padding-top: 1rem;
+    font-size: 0.8em;
+}
+
+.column .info{
+   /* info è primo ul nella colonna */
+    list-style: none;
+    margin-top: 3rem;
+    font-size: 0.8em;
+}
+
+.column li{
+    line-height: 1rem;
 
 }
