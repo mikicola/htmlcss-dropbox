@@ -72,12 +72,17 @@ nav{
     float: right;
 }
 
-header .btn{
+.btn{
     background-color: #0061ff;
     color: white;
-    margin-right: 1rem;
     padding: .5rem 2rem .5rem 2rem;
     text-decoration: none;
+}
+
+.menu .btn{
+    color: white;
+    margin-right: 1rem;
+    padding: .5rem 2rem .5rem 2rem;   
 }
 .contenitor-header .content{
     width: 80%;
@@ -166,7 +171,7 @@ header .content .bottom-header .fas, .fa-arrow-down{
 .column-contenitor{
     margin-top: 3rem;
     width: 100%;
-
+    
     /* background-color: lightsalmon; */
 }
 
@@ -175,6 +180,7 @@ header .content .bottom-header .fas, .fa-arrow-down{
     float: left;
     padding: 1rem;  
     border: 2px solid lightgrey;
+    /* position: absolute; */
     /* background-color: lightgreen; */
     /* height: 300px; */
 }
@@ -205,6 +211,10 @@ background-color: lightgrey;
     padding-top: 1.5rem ;
 }
 
+.pt-25{
+    padding-top: 2.5rem ;
+}
+
 .column .title{
     width: 100%;
     text-align: center;
@@ -213,12 +223,14 @@ background-color: lightgrey;
 
 .column h3{
     font-size: 1.7em;
-    
 }
 
-.column .price, .mounth{
-    display: block;
-    
+.price, .mounth, .buy{
+    display: block; 
+}
+
+.column .price{
+    font-weight: bold;
 }
 
 .column .mounth{
@@ -227,14 +239,35 @@ background-color: lightgrey;
     font-size: 0.8em;
 }
 
-.column .info{
+.column .info, .column .btn, .column .buy{
    /* info è primo ul nella colonna */
     list-style: none;
     margin-top: 3rem;
     font-size: 0.8em;
 }
 
-.column li{
-    line-height: 1rem;
 
+.column .info li{
+    line-height: 1rem;
 }
+
+.btn-contenitor{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.column #blue{ 
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.short-hr{
+    width: 10px;
+}
+
+.blue-color{
+    color: #0061ff;
+    padding-right: .3rem;
+}
+
