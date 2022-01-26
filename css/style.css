@@ -12,6 +12,7 @@ html{
     max-width: 2048px;
     margin: auto;
     background-color: #b4d0e7;
+    /* position: absolute; */
 }
 
 .contenitor-900{
@@ -32,6 +33,12 @@ nav{
     background-color: white;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .menu .logo{
     float: left;
     
@@ -47,34 +54,68 @@ nav{
     display: inline-block;
 }
 
-ul li:nth-last-child(-n+3){
-background-color: coral;
-float: right;
-/* margin-left: 5rem; */
-}
-
 .menu a {
     text-decoration: none;
     color: black;
     padding: 0rem 0.7rem 0rem 0.7rem;
 }
 
-.menu .btn{
+
+.right-list{
     float: right;
+}
+
+header .btn{
     background-color: #0061ff;
     color: white;
     margin-right: 1rem;
-    padding: 0rem 2rem 0rem 2rem;
+    padding: .5rem 2rem .5rem 2rem;
+    text-decoration: none;
 }
-
 .contenitor-header .content{
     width: 80%;
     margin: auto;
-    min-height: 500px;
-
+    min-height: 700px;
     padding-top: 5rem;
 }
 
 .contenitor-header .content h1{
     font-size: 5em;
+}
+
+.contenitor-header .content p{
+    width: 25%;
+    margin-top: 2.5rem;
+    float: left;
+}
+
+.content .left{
+    float: left;
+}
+
+.img-header{
+    width: 65%;
+    margin-top: 2.5rem;
+    float: right;
+    object-fit: cover;
+}
+
+header .content p{
+    position: absolute;
+}
+
+header .content .bottom-header{
+    position: relative;
+    top: 11rem;
+}
+
+header .content .bottom-header span{
+    padding-top: 2rem;
+    display: block;
+    text-align: left;   
+}
+
+header .content .bottom-header .fas, .fa-arrow-down{
+    padding-top: 4rem;
+    font-size: 4em;
 }
