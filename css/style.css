@@ -83,6 +83,12 @@ nav{
     text-decoration: none;
 }
 
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 .menu .btn{
     color: white;
     margin-right: 1rem;
@@ -183,10 +189,14 @@ header .content .bottom-header .fas, .fa-arrow-down{
     width: calc((100% - 2rem) / 3);
     float: left;
     padding: 1rem;  
-    border: 2px solid lightgrey;
     /* position: absolute; */
     /* background-color: lightgreen; */
     /* height: 300px; */
+}
+
+.column-contenitor .solid{
+    border: 2px solid lightgrey;
+
 }
 
 .contenitor-900 hr {
@@ -235,6 +245,11 @@ background-color: lightgrey;
 
 .contenitor-900 h3{
     font-size: 1.7em;
+}
+
+.second h3{
+    font-size: 1.4em;
+    padding-top: 1rem;
 }
 
 .price, .mounth, .buy, .contact{
@@ -300,6 +315,12 @@ background-color: lightgrey;
     left: 18rem;
 }
 
+.section-bottom{
+    width: 100%;
+    min-height: 384px;
+    /* background-color: yellow; */
+}
+
 .section-bottom img{
     width: 50%;
     float: left;
@@ -313,4 +334,12 @@ background-color: lightgrey;
 
 .section-bottom h5{
     font-size: 1.4rem;
+}
+
+.column-contenitor .bottom{
+    margin-top: 2.5rem;
+}
+
+.business-img{
+    width: 100%;
 }
