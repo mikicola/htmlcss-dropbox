@@ -16,6 +16,10 @@ html{
     /* min-height: 300px; */
 }
 
+.contenitor-full{
+    width: 100%;
+}
+
 .contenitor-900{
     max-width: 900px;
     margin:auto;
@@ -344,6 +348,11 @@ span:after{
     width: 100%;
 }
 
+.under-grid{
+    background-color: #b4d0e7;
+
+}
+
 .third .text h2{
     display: block;
     margin-top: 7rem;
@@ -356,9 +365,7 @@ span:after{
 
 
 
-
 .under-grid{
-    background-color: #b4d0e7;
     /* position: absolute; */
 }
 .under-grid h3{
@@ -379,8 +386,36 @@ span:after{
 
 .fourth h4{
     font-size: 1.4em;
+    padding-bottom: 1.5rem;
 }
 
-.faq{
-    
+.faq, .question{
+    width: 100&;
+}
+
+/* .faq span{
+    display: inline-block;
+}
+*/
+.faq hr{
+    margin: 0;
+    height: 1px;
+}
+
+.faq .question{
+    padding: 2rem 0 2rem 0;
+} 
+
+.right{
+    float: right;
+}
+
+.faq .question .fas .fa-chevron-down{
+    text-decoration: none;
+    color: black;
+}
+
+.black-color{
+    color: black;
+    fill: black;
 }
