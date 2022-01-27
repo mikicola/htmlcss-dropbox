@@ -25,6 +25,11 @@ html{
     margin:auto;
 }
 
+.contenitor-1080{
+    max-width: 1080px;
+    margin:auto;
+}
+
 .line-height{
     line-height: 1.4rem;
 }
@@ -394,7 +399,7 @@ span:after{
     margin: auto; */
 }
 .center-content{
-    max-width:500px;
+    max-width: 622px;
     padding: 3rem 2rem;
 }
 
@@ -435,8 +440,23 @@ span:after{
     bottom: 250px;
 }
 
+.in-square{
+    display: block;
+    width: 50%;
+    margin: auto;
+    height: 250px;
+    vertical-align: middle;
+    color: white;
+    filter: invert(1);
+}
+
+.special{
+    width: 60%;
+}
+
 .green{
     background-color: #a2d39b;
+    border: 15px solid #cde7ca;
 }
 
 .dark-red {
@@ -462,29 +482,6 @@ span:after{
 .yellow{
     background-color: #ffd830;
 }
-
-.in-square{
-    display: block;
-    width: 50%;
-    margin: auto;
-    height: 250px;
-    vertical-align: middle;
-    color: white;
-    filter: invert(1);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -546,5 +543,42 @@ span:after{
 
 
 .bottom-footer{
+    
     background-color: black;
+}
+
+.bottom-footer h6{
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.bottom-footer ul{
+    list-style: none;
+    padding-bottom: 7rem;
+}
+
+.bottom-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-column{
+    float: left;
+    width: 20%;
+}
+
+.hr-footer{
+    margin-top: 7rem;
+}
+
+.bottom-footer span{
+    display: inline-block;
+    color: lightgray;
+    margin-bottom: 2rem;
+}
+
+.little-arrow{
+    display: block;
+    vertical-align: sub;
 }
