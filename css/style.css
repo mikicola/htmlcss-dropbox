@@ -89,6 +89,12 @@ nav{
     border: 1px solid black;
 }
 
+.btn-no-border{
+    background-color: white;
+    color: black;
+    border: 0;
+}
+
 .menu .btn{
     color: white;
     margin-right: 1rem;
@@ -363,6 +369,81 @@ span:after{
 }
 
 
+.grid{
+    background-color: lightgreen;
+    height: 500px;
+}
+
+.grid-container{
+    width: 100%;
+}
+
+.left-grid, .right-grid{
+    width: 500px;
+    height: 500px;
+    margin-top: 0;
+}
+
+.grid .center{
+    background-color: chartreuse;
+}
+
+.left-grid{
+    background-color: chocolate;
+    float: left;
+}
+
+.right-grid{
+    background-color: chocolate;
+    float: right;
+}
+
+.grid-container .column{
+    /* position: absolute; */
+}
+
+.in-column{
+    width: calc(100% /2);
+    height: 250px;
+
+    position: relative;
+}
+
+.two, .four{
+    bottom: 250px;
+
+}
+
+.blu{
+    background-color: darkblue;
+    
+}
+
+.red{
+    background-color: darkred;
+}
+
+.float-right{
+    float: right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .under-grid{
@@ -418,4 +499,9 @@ span:after{
 .black-color{
     color: black;
     fill: black;
+}
+
+
+.bottom-footer{
+    background-color: black;
 }
