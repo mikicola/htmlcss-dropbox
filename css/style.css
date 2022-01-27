@@ -100,6 +100,14 @@ nav{
     border: 0;
 }
 
+.btn:hover{
+    background-color: #3783ff;
+}
+
+.btn-white:hover{
+    background-color: rgb(231, 231, 231);
+}
+
 .menu .btn{
     color: white;
     margin-right: 1rem;
@@ -543,7 +551,7 @@ span:after{
 
 
 .bottom-footer{
-    
+    margin-top: 7rem;
     background-color: black;
 }
 
@@ -551,6 +559,7 @@ span:after{
     color: white;
     font-size: 1rem;
     padding-bottom: 1.5rem;
+    padding-top: 7rem;
 }
 
 .bottom-footer ul{
