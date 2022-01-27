@@ -25,10 +25,6 @@ html{
     line-height: 1.4rem;
 }
 
-.pt-7{
-    padding-top: 7rem;
-}
-
 nav{
     vertical-align: middle;
     line-height: 2rem;
@@ -212,8 +208,8 @@ header .content .bottom-header .fas, .fa-arrow-down{
 
 span:after{
     width: 100%;
-height: 1px;
-background-color: lightgrey;
+    height: 1px;
+    background-color: lightgrey;
 }
 
 .center{
@@ -231,6 +227,10 @@ background-color: lightgrey;
 
 .pt-25{
     padding-top: 2.5rem ;
+}
+
+.pt-7{
+    padding-top: 7rem;
 }
 
 .bold{
@@ -252,7 +252,7 @@ background-color: lightgrey;
     padding-top: 1rem;
 }
 
-.price, .mounth, .buy, .contact{
+.price, .mounth, .buy, .contact, .clients{
     display: block; 
 }
 
@@ -284,7 +284,7 @@ background-color: lightgrey;
     text-align: center;
 }
 
-.column #blue{ 
+.blue{ 
     color: #0061ff;
     text-decoration: underline;
 }
@@ -342,4 +342,45 @@ background-color: lightgrey;
 
 .business-img{
     width: 100%;
+}
+
+.third .text h2{
+    display: block;
+    margin-top: 7rem;
+}
+
+.third .text{
+    margin-top: 7rem;
+}
+
+
+
+
+
+.under-grid{
+    background-color: #b4d0e7;
+    /* position: absolute; */
+}
+.under-grid h3{
+    font-size: 2.5em;
+    color: #671639;
+    padding: 7rem 0 7rem 0;
+    width: 60%;
+}
+
+
+
+.under-grid a{
+    display: block;
+    float:right;
+    position: relative;
+    bottom: 12rem;
+}
+
+.fourth h4{
+    font-size: 1.4em;
+}
+
+.faq{
+    
 }
